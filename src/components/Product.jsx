@@ -63,12 +63,12 @@ theme="dark"
                       <h5 className="card-title">{product.title}</h5>
                       <p className="card-text">{product.description}</p>
                       <button className="btn btn-primary mx-3">
-                        {product.price} ₹
+                        {product.price} Pkr
                       </button>
-                      <button
+                      {/* <button
                       onClick={()=>addToCart(product.id,product.price,product.title,product.description,product.imgSrc)}
                        className="btn btn-warning"
-                       >Add To Cart</button>
+                       >Ai Comparison</button> */}
                     </div>
                   </div>
                 </div>
