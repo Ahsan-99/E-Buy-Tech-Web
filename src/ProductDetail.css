@@ -1,0 +1,182 @@
+.container.con {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0;
+  padding: 15px;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.container.con .img img {
+  max-width: 300px;
+  border-radius: 8px;
+}
+
+.container.con .text-center {
+  max-width: 400px;
+  text-align: center;
+}
+
+.card-title {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 15px;
+}
+
+.card-text {
+  font-size: 1rem;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+.btn {
+  font-size: 1rem;
+  padding: 10px 20px;
+  margin: 5px;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+}
+
+.btn-warning {
+  background-color: #ffc107;
+  color: #212529;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+
+.btn-warning:hover {
+  background-color: #d39e00;
+}
+
+.reviews-section {
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #f5faf6; /* Light greenish background */
+  border: 1px solid #d4e5dc;
+  border-radius: 12px;
+  max-width: 800px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.reviews-section h3 {
+  font-size: 2rem;
+  color: purple;
+  text-align: center;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.review-card {
+  background-color: #ffffff;
+  padding: 15px 20px;
+  margin: 15px 0;
+  border-radius: 10px;
+  border: 1px solid #e6e6e6;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.review-card p {
+  margin: 0;
+  font-size: 1.2rem;
+  line-height: 1.6;
+  color: #333;
+}
+
+.review-card strong {
+  color: purple
+}
+
+.no-reviews-text {
+  font-size: 1rem;
+  text-align: center;
+  color: #666;
+  margin: 20px 0;
+}
+
+
+.comparison-result {
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #fffbe6;
+  border: 1px solid #ffeeba;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.comparison-result h3 {
+  font-size: 1.5rem;
+  color: #856404;
+  margin-bottom: 10px;
+}
+
+.comparison-result p {
+  font-size: 1rem;
+  color: #856404;
+  line-height: 1.5;
+}
+
+#btn-center {
+  display: flex;
+  justify-content: center;
+}
+
+.summary-section {
+  margin: 30px auto;
+  padding: 20px;
+  background-color: #f5faf6; /* Light greenish background to match the testimonials */
+  border: 1px solid #d4e5dc;
+  border-radius: 12px;
+  max-width: 800px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.summary-section h3 {
+  font-size: 2rem;
+  color: purple; /* Dark green for the heading */
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: bold;
+}
+
+.summary-section p {
+  font-size: 1.2rem;
+  color: #333;
+  line-height: 1.6;
+  text-align: justify;
+  margin-top: 20px;
+  padding: 10px;
+}
+  
+
+/* ProductDetail.css */
+.related-products img {
+  width: 150px; /* Adjust the width */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Ensure images fit nicely */
+  margin: 10px; /* Add some spacing */
+  border-radius: 8px; /* Optional: Add rounded corners */
+}
+
+.product-img {
+  width: 150px; /* Reduced image width */
+  height: auto; /* Maintain aspect ratio */
+  object-fit: cover; /* Ensure images fit nicely */
+  margin: 10px auto; /* Add spacing and center align */
+  border-radius: 8px; /* Optional: Rounded corners */
+}
