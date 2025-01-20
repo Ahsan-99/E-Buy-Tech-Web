@@ -79,7 +79,7 @@ app.get("/api/review/summary", async (req, res) => {
         // console.log(results);
         const reviews = results.map(row => row.review);
     
-        const genAI = new GoogleGenerativeAI("AIzaSyBUnZ2qks_ocaPPuMxgK2mH7Q-FSbPP6qs"); 
+        const genAI = new GoogleGenerativeAI(""); 
         const model = genAI.getGenerativeModel({ model: "gemini-1.5-flash" }); 
     
         const perspectives = [
